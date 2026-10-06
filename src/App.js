@@ -13,15 +13,15 @@ function App() {
 
         <nav>
           <Link to="/">Home</Link>{" "}
-          <Link to="/aboutus">About Us</Link>{" "}
-          <Link to="/contactus">Contact Us</Link>
+          <Link to="/Aboutus">About Us</Link>{" "}
+          <Link to="/Contactus">Contact Us</Link>
         </nav>
       </header>
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/aboutus" element={<About />} />
-        <Route path="/contactus" element={<Contact />} />
+        <Route path="/Aboutus" element={<About />} />
+        <Route path="/Contactus" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

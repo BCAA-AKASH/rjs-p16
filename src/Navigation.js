@@ -4,8 +4,8 @@ function Navigation() {
   return (
     <nav>
       <Link to="/">Home</Link>
-      <Link to="/aboutus">About Us</Link>
-      <Link to="/contactus">Contact Us</Link>
+      <Link to="/Aboutus">About Us</Link>
+      <Link to="/Contactus">Contact Us</Link>
     </nav>
   );
 }
