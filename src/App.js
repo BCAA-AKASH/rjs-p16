@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
-import Contact from './Contact';
+import Contact from "./Contacts";
 
 import "./App.css";
 
@@ -13,15 +13,15 @@ function App() {
 
         <nav>
           <Link to="/">Home</Link>{" "}
-          <Link to="/Aboutus">About Us</Link>{" "}
-          <Link to="/Contactus">Contact Us</Link>
+          <Link to="/aboutus">About Us</Link>{" "}
+          <Link to="/contactus">Contact Us</Link>
         </nav>
       </header>
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Aboutus" element={<About />} />
-        <Route path="/Contactus" element={<Contact />} />
+        <Route path="/aboutus" element={<About />} />
+        <Route path="/contactus" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
