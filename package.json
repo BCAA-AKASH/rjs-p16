@@ -2,13 +2,14 @@
   "name": "program16-react-router",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://2024-bca-a-harish.github.io/rjs-p16",
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.30.1",
+    "react-router-dom": "^6.30.6",
     "react-scripts": "5.0.1"
   },
   "scripts": {
